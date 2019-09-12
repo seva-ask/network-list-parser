@@ -45,7 +45,7 @@ darwin/arm64 \
 "
 
 N=network-list-parser
-PKG=github.com/unsacrificed/network-list-parser
+PKG=github.com/seva-ask/network-list-parser
 GO_PATH=`go env GOPATH`
 VERSION_FILE="${GO_PATH}/src/${PKG}/doc.go"
 VERSION=`cat "${VERSION_FILE}" | grep "const version =" | cut -d "\"" -f 2`
