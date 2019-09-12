@@ -18,7 +18,7 @@ type AutoAggregationSettings struct {
 
 var AutoAggregationDefaultSettings = AutoAggregationSettings{
 	LogMaxPrefix:       23,
-	IntensiveMinPrefix: 24,
+	IntensiveMinPrefix: 20,
 	IntensiveMinNets:   2,
 	IntensiveMaxFake:   128,
 	MaxFake:            1024,
